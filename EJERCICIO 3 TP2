@@ -1,0 +1,18 @@
+can_per = input("ingrese la cantidad de pesonas")
+can_per = int(can_per)
+
+can_equ = input("ingrese la cantidad de equipos")
+can_equ = int(can_equ)
+
+def calcular_factorial(can_per):
+    if can_per == 0 or can_per == 1:
+       return 1
+    else :
+        return can_per * calcular_factorial(can_per - 1)
+    
+    def calcular_commbinaciones(can_per, can_equ):
+        if can_equ > can_per :
+            return 0
+        else:
+            return calcular_factorial(can_per) //(calcular_factorial(can_equ) * calcular_factorial(can_per - can_equ))
+     print("la cantidad de equipos que se pueden formar", calcular_combinaciones(can_per, can_equ))
