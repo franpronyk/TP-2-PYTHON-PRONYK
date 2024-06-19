@@ -1,1 +1,8 @@
-LJBKH
+dtierraluna = 384000 
+
+velonave = 2000 
+
+tiempviaje = 384000 / 2000 
+
+print("Tiempo de viaje: ", tiempviaje, "HORAS")
+
