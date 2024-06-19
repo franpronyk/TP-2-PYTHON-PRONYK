@@ -1,0 +1,5 @@
+nombre = input("ingrese nombre de hechizero")
+poci_mag = input("ingrese num de pociones magicas")
+poci_mag = int(poci_mag)
+
+print("nombre del hechizero:", nombre, "cant de pociones:", poci_mag )
