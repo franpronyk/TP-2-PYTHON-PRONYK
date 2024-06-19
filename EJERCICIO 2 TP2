@@ -1,0 +1,6 @@
+blunar = 245000
+altlunar = 8000
+
+Arealunar = blunar * altlunar
+
+print("Superficie lunar: ", Arealunar, "Metros")
