@@ -1,0 +1,10 @@
+def hechizo_suficm_fuerte(potencia_hechizo, resistencia_enemigo):
+    return potencia_hechizo > resistencia_enemigo
+
+potencia_hechizo = float(input("ingresa la potencia del hdechizo:"))
+resistencia_enemigo = float(input("resistencia del enemigo:" ))
+
+if hechizo_suficm_fuerte(potencia_hechizo, resistencia_enemigo):
+    print("el hechizo lo derroto")
+else:
+    print("sigue vivvooooooOOoOOOAAAAAAA")
