@@ -2,18 +2,18 @@ import random
 
 
 preguntas = [
-    "¿Qué es lo que tiene ojos y no puede ver?",
-    "Tiene dientes pero no puede comer. ¿Qué es?",
-    "Siempre está en la cama, en la mesa y en el suelo, pero nunca duerme. ¿Qué es?",
-    "¿Qué tiene cabeza y no piensa?",
-    "¿Qué es tan ligero como una pluma, pero incluso el más fuerte hombre no puede sostenerlo durante mucho tiempo?"
+    "Quien es el mejor jugador de la historia?",
+    "Como se llamaba la mascota del mundial 2014?",
+    "De quien es la famosa celebracion del "SIUUUUUU"?",
+    "¿Cuantas champions tiene el Nothingam Forest?",
+    "¿Cual es el clasico de Instituto de Cordoba?"
 ]
 respuestas = [
-    "un naipe",
-    "un peine",
-    "una pata",
-    "un clavo",
-    "el aliento"
+    "Messi",
+    "Fuleco",
+    "Cristiano Ronaldo",
+    "2",
+    "Racing de Cordoba"
 ]
 
 indice_pregunta = random.randint(0, len(preguntas) - 1)
