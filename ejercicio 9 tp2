@@ -26,6 +26,6 @@ respuesta = input("Tu respuesta: ").lower()
 
 
 if respuesta == respuestas[indice_pregunta]:
-    print("¡Respuesta correcta! La puerta mágica se abre y los jóvenes pueden avanzar en su búsqueda.")
+    print("Pasa pibe")
 else:
-    print("Respuesta incorrecta. La puerta mágica permanece cerrada, ¡intenta nuevamente!")
+    print("Burrooooooo. Intentalo de nuevo")
